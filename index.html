@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Rock+Salt|Sigmar+One&display=swap" rel="stylesheet">
+        <title>Around the world in 42 chips</title>
+    </head>
+    <body>
+        <div class="title"><h1>Around the world in 42 chips</h1></div>
+        <div class="startModal">
+            <div id="instructions">
+                <h2>Welcome to AROUND THE WORLD IN 42 CHIPS!</h2>
+                <h3>Discussing with your friend whether to travel by train or by plane? Why not decide it on a super fun game of CONNECT4?</h3>
+                <h3>Each player clicks on a column to add its chip. The first player to stack four consecutive chips on a column, on a row or on a diagonal WINS!</h3>
+                <h2>BONUS</h2>
+                <h3> On each round, a new T-Shirt will be added to your luggage. This way you are ready to go! Also check your 'Travel log'. It grows as you travel to different destinations in each round!</h3>
+                <button id='startTheGame' type="button" name="button">Ready to travel?</button>
+            </div>
+
+        </div>
+        <div class="youWin">
+            <div id="message">
+                <img class="passport" src="passport.gif" alt="">
+                <h3>Your passport is ready! Get your luggage and your camera and don't be late!</h3>
+                 <button id="resetting" type="button" name="button">
+                     Feel like trying a new trip? Click here!</button>
+                <img class="visa" src="visa.jpg" alt="">
+
+         </div>
+     </div>
+
+     <div class="middlePage">
+         <div class="sideBar">
+             <div class="passportPage">
+                 <ul>Travel log</ul>
+             </div>
+
+             <div class="picBar">
+                 <img class='wardrobe'src="wardrobe.png" alt="">
+                 <img class='shirt' src="tshirt.png" alt="">
+                 <img class='backpack' src="backpack.png" alt="">
+                 <!-- <img class='carryon'src="carryon.png" alt=""> -->
+             </div>
+             <!-- <div class="teams">
+                 <h6 class='playerTrain'>TRAIN</h6>
+                 <h6 class= 'playerPlane'>PLANE</h6>
+             </div> -->
+
+         </div>
+
+         <div id="board">
+             <div class="column c0">
+                 <div class="slot row0 c0"><div class="hole"></div></div>
+                 <div class="slot row1 c0"><div class="hole"></div></div>
+                 <div class="slot row2 c0"><div class="hole"></div></div>
+                 <div class="slot row3 c0"><div class="hole"></div></div>
+                 <div class="slot row4 c0"><div class="hole"></div></div>
+                 <div class="slot row5 c0"><div class="hole"></div></div>
+             </div>
+             <div class="column c1">
+                 <div class="slot row0 c1"><div class="hole"></div></div>
+                 <div class="slot row1 c1"><div class="hole"></div></div>
+                 <div class="slot row2 c1"><div class="hole"></div></div>
+                 <div class="slot row3 c1"><div class="hole"></div></div>
+                 <div class="slot row4 c1"><div class="hole"></div></div>
+                 <div class="slot row5 c1"><div class="hole"></div></div>
+             </div>
+             <div class="column c2">
+                 <div class="slot row0 c2"><div class="hole"></div></div>
+                 <div class="slot row1 c2"><div class="hole"></div></div>
+                 <div class="slot row2 c2"><div class="hole"></div></div>
+                 <div class="slot row3 c2"><div class="hole"></div></div>
+                 <div class="slot row4 c2"><div class="hole"></div></div>
+                 <div class="slot row5 c2"><div class="hole"></div></div>
+             </div>
+             <div class="column c3">
+                 <div class="slot row0 c3"><div class="hole"></div></div>
+                 <div class="slot row1 c3"><div class="hole"></div></div>
+                 <div class="slot row2 c3"><div class="hole"></div></div>
+                 <div class="slot row3 c3"><div class="hole"></div></div>
+                 <div class="slot row4 c3"><div class="hole"></div></div>
+                 <div class="slot row5 c3"><div class="hole"></div></div>
+             </div>
+             <div class="column c4">
+                 <div class="slot row0 c4"><div class="hole"></div></div>
+                 <div class="slot row1 c4"><div class="hole"></div></div>
+                 <div class="slot row2 c4"><div class="hole"></div></div>
+                 <div class="slot row3 c4"><div class="hole"></div></div>
+                 <div class="slot row4 c4"><div class="hole"></div></div>
+                 <div class="slot row5 c4"><div class="hole"></div></div>
+             </div>
+             <div class="column c5">
+                 <div class="slot row0 c5"><div class="hole"></div></div>
+                 <div class="slot row1 c5 "><div class="hole"></div></div>
+                 <div class="slot row2 c5"><div class="hole"></div></div>
+                 <div class="slot row3 c5"><div class="hole"></div></div>
+                 <div class="slot row4 c5"><div class="hole"></div></div>
+                 <div class="slot row5 c5"><div class="hole"></div></div>
+             </div>
+             <div class="column c6">
+                 <div class="slot row0 c6"><div class="hole"></div></div>
+                 <div class="slot row1 c6"><div class="hole"></div></div>
+                 <div class="slot row2 c6"><div class="hole"></div></div>
+                 <div class="slot row3 c6"><div class="hole"></div></div>
+                 <div class="slot row4 c6"><div class="hole"></div></div>
+                 <div class="slot row5 c6"><div class="hole"></div></div>
+             </div>
+         </div>
+     </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src='script.js'>
+</script>
+    </body>
+</html>
